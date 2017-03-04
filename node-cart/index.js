@@ -26,8 +26,8 @@ app.post('/api/phones', phoneCtrl.create);
 app.put('/api/phones/:id', phoneCtrl.update);
 app.delete('/api/phones/:id', phoneCtrl.destroy);
 
-app.get('/api/phones/cart', cartCtrl.index)
-app.post('/api/phones/cart', cartCtrl.create)
+app.get('/api/cart', cartCtrl.index)
+app.post('/api/cart', cartCtrl.create)
 
 
 const PORT = 4000;
